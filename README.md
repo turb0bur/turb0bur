@@ -1,14 +1,24 @@
 ### Summary
 
-Senior DevOps and Software Engineer with 9+ years of commercial experience. For the last 4+ years, I have focused on enterprise microservices architecture within the AWS ecosystem.
+With over 9 years in IT, I’ve grown from backend web development into a DevOps and cloud engineering specialist. 
+My expertise centers on AWS infrastructure (Terraform), CI/CD pipeline development, and building scalable, 
+reliable systems for microservices architectures.
 
-Cloud Expert: Deep integration with AWS and Infrastructure as Code (Terraform).
+Currently, I design and implement DR strategies, migrate AWS resources between VPCs, and maintain CI/CD pipelines for 
+PHP and JS microservices. I’ve contributed to the transition from Octopus Deploy to Harness, built multi-region 
+data ingestion pipelines with AWS Kinesis, Lambda, and S3, and fine-tuned Datadog monitoring for cloud environments.
 
-Architecture: Proven track record in microservices and third-party integrations (Auth0, Datadog).
+Certified as an [AWS DevOps Engineer – Professional](https://www.credly.com/badges/7da1a846-48b8-4e3b-b774-d44357e3a465/public_url) 
+and [HashiCorp Terraform Associate](https://www.credly.com/badges/4c9a73ff-4aa2-45f0-b77f-589df6501524/public_url), 
+I’m also a graduate of the Data Engineering certification program at Ukrainian Catholic University. 
+I’m passionate about leveraging LLMs for engineering excellence and actively share knowledge within professional communities.
 
-Leadership: Strong at problem localization, leading small teams, and technical communication.
-
-Aspirations: Actively expanding expertise into Data Engineering and Data Science.
+Key strengths:
+- AWS & Cloud Solutions
+- Infrastructure as Code (Terraform)
+- CI/CD & Automation
+- Microservices & Data Engineering
+- Community Engagement & Mentoring
 
 
 ### Certifications
