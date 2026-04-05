@@ -1,28 +1,21 @@
 ### Summary
 
-With over 9 years in IT, I’ve grown from backend web development into a DevOps and cloud engineering specialist. 
-My expertise centers on AWS infrastructure (Terraform), CI/CD pipeline development, and building scalable, 
-reliable systems for microservices architectures.
+Senior DevOps and Cloud Engineer with 9+ years of commercial experience. For the last 4+ years, focused on enterprise 
+microservices architecture within the AWS ecosystem.
 
-Currently, I design and implement DR strategies, migrate AWS resources between VPCs, and maintain CI/CD pipelines for 
-PHP and JS microservices. I’ve contributed to the transition from Octopus Deploy to Harness, built multi-region 
-data ingestion pipelines with AWS Kinesis, Lambda, and S3, and fine-tuned Datadog monitoring for cloud environments.
+**Cloud & IaC:** Deep expertise in AWS and Infrastructure as Code (Terraform). AWS Certified DevOps Professional, 
+HashiCorp Terraform Associate, and CKA certified.
 
-Certified as an [AWS DevOps Engineer – Professional](https://www.credly.com/badges/7da1a846-48b8-4e3b-b774-d44357e3a465/public_url) 
-and [HashiCorp Terraform Associate](https://www.credly.com/badges/4c9a73ff-4aa2-45f0-b77f-589df6501524/public_url), 
-I’m also a graduate of the Data Engineering certification program at Ukrainian Catholic University. 
-I’m passionate about leveraging LLMs for engineering excellence and actively share knowledge within professional communities.
+**Architecture:** Proven track record in microservices, CI/CD pipeline design, and third-party integrations (Auth0, Datadog).
 
-Key strengths:
-- AWS & Cloud Solutions
-- Infrastructure as Code (Terraform)
-- CI/CD & Automation
-- Microservices & Data Engineering
-- Community Engagement & Mentoring
+**Leadership:** Strong at problem localization, leading small teams, and technical communication.
+
+**Aspirations:** Actively expanding Kubernetes expertise (CKAD in progress) and exploring Data Engineering and Machine Learning.
 
 
 ### Certifications
 
+- [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/b30b94a9-3e0e-4c12-8b31-0e5563f101d0/public_url)
 - [AWS Certified DevOps Engineer – Professional](https://www.credly.com/badges/7da1a846-48b8-4e3b-b774-d44357e3a465/public_url)
 - [HashiCorp Certified: Terraform Associate (003)](https://www.credly.com/badges/4c9a73ff-4aa2-45f0-b77f-589df6501524/public_url)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/434face5-b3c2-48c1-ba17-b3258b5a8eda/public_url)
@@ -40,7 +33,7 @@ Key strengths:
 
 - DevOps / Cloud
   - Linux (Ubuntu, CentOS)
-  - CI/CD (GitHub Actions, Harnerss, Jenkins)
+  - CI/CD (GitHub Actions, Harness, Jenkins)
   - Scripting (Python, Bash)
   - Containerization (Docker)
   - AWS (Lambda, ECS, API Gateway, S3, CloudWatch, IAM, RDS, DynamoDB, VPC, SQS, CloudFront, Route53)
