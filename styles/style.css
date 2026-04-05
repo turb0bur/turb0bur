@@ -292,12 +292,12 @@ h3.company-summary {
 @media print {
     @page {
         size: A4;
-        padding: 10mm 0 0 0;
+        padding: 10mm 0;
     }
 
     @page :first {
         margin: 0;
-        padding: 0;
+        padding: 0 0 10mm;
     }
 
     body {
@@ -323,7 +323,6 @@ h3.company-summary {
     .main-container {
         display: block;
         width: 100%;
-        padding-left: 5mm;
     }
 
     .sidebar {
@@ -332,28 +331,35 @@ h3.company-summary {
         padding: 20px;
         background-color: var(--bg-sidebar) !important;
         -webkit-print-color-adjust: exact;
-        page-break-after: avoid;
     }
 
     .content-area {
         display: block;
         width: auto;
         padding: 20px;
+        margin-left: 5mm;
     }
 
     .experience {
         display: block;
     }
 
-    section {
-        page-break-inside: auto;
+    .section {
+        break-inside: auto;
         display: block;
         clear: none;
     }
 
-    .job, .skill-item {
-        break-inside: avoid;
-        page-break-inside: avoid;
+    .section-certifications {
+        break-before: page;
+    }
+
+    .section-education {
+        break-before: page;
+    }
+
+    .job-achievements > li {
+        break-inside: avoid-page;
     }
 
     .rating {
