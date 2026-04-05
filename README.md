@@ -1,18 +1,21 @@
 ### Summary
 
-Senior DevOps and Software Engineer with 9+ years of commercial experience. For the last 4+ years, I have focused on enterprise microservices architecture within the AWS ecosystem.
+Senior DevOps and Cloud Engineer with 9+ years of commercial experience. For the last 4+ years, focused on enterprise 
+microservices architecture within the AWS ecosystem.
 
-Cloud Expert: Deep integration with AWS and Infrastructure as Code (Terraform).
+**Cloud & IaC:** Deep expertise in AWS and Infrastructure as Code (Terraform). AWS Certified DevOps Professional, 
+HashiCorp Terraform Associate, and CKA certified.
 
-Architecture: Proven track record in microservices and third-party integrations (Auth0, Datadog).
+**Architecture:** Proven track record in microservices, CI/CD pipeline design, and third-party integrations (Auth0, Datadog).
 
-Leadership: Strong at problem localization, leading small teams, and technical communication.
+**Leadership:** Strong at problem localization, leading small teams, and technical communication.
 
-Aspirations: Actively expanding expertise into Data Engineering and Data Science.
+**Aspirations:** Actively expanding Kubernetes expertise (CKAD in progress) and exploring Data Engineering and Machine Learning.
 
 
 ### Certifications
 
+- [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/b30b94a9-3e0e-4c12-8b31-0e5563f101d0/public_url)
 - [AWS Certified DevOps Engineer – Professional](https://www.credly.com/badges/7da1a846-48b8-4e3b-b774-d44357e3a465/public_url)
 - [HashiCorp Certified: Terraform Associate (003)](https://www.credly.com/badges/4c9a73ff-4aa2-45f0-b77f-589df6501524/public_url)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/434face5-b3c2-48c1-ba17-b3258b5a8eda/public_url)
@@ -30,7 +33,7 @@ Aspirations: Actively expanding expertise into Data Engineering and Data Science
 
 - DevOps / Cloud
   - Linux (Ubuntu, CentOS)
-  - CI/CD (GitHub Actions, Harnerss, Jenkins)
+  - CI/CD (GitHub Actions, Harness, Jenkins)
   - Scripting (Python, Bash)
   - Containerization (Docker)
   - AWS (Lambda, ECS, API Gateway, S3, CloudWatch, IAM, RDS, DynamoDB, VPC, SQS, CloudFront, Route53)
