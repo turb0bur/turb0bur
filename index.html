@@ -56,7 +56,7 @@
                     </li>
                     <li class="skill-item">
                         <span class="skill-label">Prometheus/Grafana</span>
-                        <span class="rating dots-2" aria-label="2 out of 5"></span>
+                        <span class="rating dots-3" aria-label="3 out of 5"></span>
                     </li>
                     <li class="skill-item">
                         <span class="skill-label">Datadog</span>
@@ -104,10 +104,11 @@
             <section class="section section-summary">
                 <h2>Summary</h2>
                 <p>
-                    Senior DevOps Engineer with 9 years in IT and a background spanning backend software engineering and
-                    cloud infrastructure. I bring a developer's perspective to infrastructure work - designing AWS-based
-                    systems that are practical and efficient for engineering teams to work with daily. AWS Certified
-                    DevOps Professional, HashiCorp Terraform Associate, Kubernetes certified (CKA and CKAD).
+                    Senior DevOps Engineer with 9 years in IT, background spanning frontend development, backend
+                    engineering, and oil & gas geology. Specializes in AWS cloud infrastructure, infrastructure as code,
+                    and CI/CD automation for enterprise microservices at scale. Kubestronaut — holder of all five Linux
+                    Foundation Kubernetes certifications (CKA, CKAD, CKS, KCNA, KCSA). AWS Certified DevOps Professional
+                    and HashiCorp Terraform Associate.
                 </p>
             </section>
 
@@ -127,9 +128,12 @@
                             <h4 class="job-title">Senior DevOps/Systems Engineer</h4>
                             <p class="job-period">April 2026 - Present</p>
                             <ul class="job-achievements">
-                                <li>Reduced non-production Redis infrastructure costs by migrating 30 services from
-                                    dedicated 2-node Elasticache clusters to 4 shared single-node Valkey clusters,
-                                    significantly cutting node count and operational overhead.
+                                <li>Designed and implemented a distributed performance testing platform on AWS (K6, ECS
+                                    Fargate, Step Functions) targeting 600K RPH with multi-region capability.
+                                </li>
+                                <li>Reduced non-production Redis infrastructure costs by ~57% by migrating from
+                                    service-dedicated ElastiCache highly available clusters to shared single-node Valkey
+                                    clusters.
                                 </li>
                             </ul>
                         </li>
@@ -138,20 +142,19 @@
                             <h4 class="job-title">DevOps/Systems Engineer</h4>
                             <p class="job-period">November 2024 - March 2026</p>
                             <ul class="job-achievements">
-                                <li>Designed and scaled core AWS infrastructure (Lambda, API Gateway, Aurora MySQL,
-                                    DynamoDB) across 3 regions.
+                                <li>Designed and scaled core AWS serverless infrastructure (Lambda, API Gateway, Aurora
+                                    MySQL, DynamoDB) across 3 regions to support production traffic growth.
                                 </li>
                                 <li>Migrated 60 CI/CD pipelines (20 microservices × 3 pipelines each) from Octopus
                                     Deploy to Harness, separating infrastructure provisioning from application
                                     deployments and reducing tooling subscription costs.
                                 </li>
-                                <li>Diagnosed and resolved scaling bottlenecks in the performance testing environment
-                                    caused by exhausted RDS connection limits and insufficient Aurora Serverless ACU
-                                    capacity - implementing RDS Proxy and tuning ACU configuration to handle peak load.
+                                <li>Resolved production scaling bottlenecks under peak load by implementing RDS Proxy
+                                    and tuning Aurora Serverless ACU configuration, eliminating connection exhaustion
+                                    failures.
                                 </li>
-                                <li> Resolved cross-account networking blockers and reduced observability noise by
-                                    eliminating 80 redundant Datadog monitors (20 microservices × 4 environments) -
-                                    improving system reliability and alert quality across environments.
+                                <li>Reduced Datadog observability noise by decommissioning 80 redundant monitors,
+                                    improving alert signal quality across environments.
                                 </li>
                             </ul>
                         </li>
@@ -165,10 +168,12 @@
                                     replacing a legacy platform limited to 5 concurrent users and manual infrastructure
                                     provisioning.
                                 </li>
-                                <li>Established initial AWS CodeBuild CI/CD pipelines from scratch, enabling automated
-                                    builds across the engineering team.
+                                <li>Built AWS CodeBuild CI/CD pipelines from scratch, enabling automated builds and
+                                    deployments across a ~100-engineer team.
                                 </li>
-                                <li>Implemented Datadog dashboards and alerting for key business workflows.</li>
+                                <li>Implemented Datadog dashboards and alerting for critical business workflows,
+                                    providing engineering teams with first observability coverage across the platform.
+                                </li>
                             </ul>
                         </li>
                         <li class="job">
@@ -209,44 +214,43 @@
                 </div>
             </section>
 
-            <section class="section section-activities">
-                <h2>Notable Activities</h2>
-                <ul class="activities">
-                    <li class="activity">
-                        <h3 class="activity-summary">
-                            <span class="activity-name">Internal Engineering Event</span>,
-                            <span class="company-name">EPAM Systems</span>
-                        </h3>
-                        <ul class="activity-links">
-                            <li>
-                                <a href="https://github.com/turb0bur/ticket-services-infra" class="activity-repo">GitHub:
-                                    Infrastructure</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/turb0bur/ticket-office-service/actions"
-                                   class="activity-repo">Microservice CI/CD pipelines</a>
-                            </li>
-                        </ul>
-                        <p class="activity-description">
-                            Designed and implemented ECS Fargate infrastructure for Java microservices - task
-                            definitions, IAM, networking (VPC, ALB, SGs), Cloud Map service discovery, observability
-                            (CloudWatch, X-Ray/OTEL sidecar), and GitHub Actions CI/CD.
-                        </p>
+<!--            <section class="section section-activities">-->
+<!--                <h2>Notable Activities</h2>-->
+<!--                <ul class="activities">-->
+<!--                    <li class="activity">-->
+<!--                        <h3 class="activity-summary">-->
+<!--                            <span class="activity-name">Internal Engineering Event</span>,-->
+<!--                            <span class="company-name">EPAM Systems</span>-->
+<!--                        </h3>-->
+<!--                        <ul class="activity-links">-->
+<!--                            <li>-->
+<!--                                <a href="https://github.com/turb0bur/ticket-services-infra" class="activity-repo">GitHub:-->
+<!--                                    Infrastructure</a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href="https://github.com/turb0bur/ticket-office-service/actions"-->
+<!--                                   class="activity-repo">Microservice CI/CD pipelines</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                        <p class="activity-description">-->
+<!--                            Designed and implemented ECS Fargate infrastructure for Java microservices - task-->
+<!--                            definitions, IAM, networking (VPC, ALB, SGs), Cloud Map service discovery, observability-->
+<!--                            (CloudWatch, X-Ray/OTEL sidecar), and GitHub Actions CI/CD.-->
+<!--                        </p>-->
 
-                    </li>
-                </ul>
-            </section>
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </section>-->
 
             <section class="section section-certifications">
                 <h2>Certifications</h2>
                 <ul class="cert-list">
-                    <li><strong>Certified Kubernetes Application Developer (CKAD)</strong> (April 2026-April 2028)</li>
-                    <li><strong>Certified Kubernetes Administrator (CKA)</strong> (March 2026-March 2028)</li>
+                    <li><strong>Kubestronaut (CKA, CKAD, CKS, KCNA, KCSA)</strong> (May 2026-March 2028)</li>
                     <li><strong>AWS Certified DevOps Professional</strong> (Dec 2025-Dec 2028)</li>
                     <li><strong>Hashicorp Certified: Terraform Associate</strong> (Sep 2025-Sep 2027)</li>
                     <!--                    <li><strong>AWS Certified Cloud Practitioner</strong> (Jan 2024-Jan 2027)</li>-->
                     <!--                    <li><strong>AWS Certified Developer Associate</strong> (Nov 2020-Nov 2023)</li>-->
-                    <li><strong>Python Certified Associate Programmer</strong> (Oct 2020)</li>
+                    <!--                    <li><strong>Python Certified Associate Programmer</strong> (Oct 2020)</li>-->
                     <!--                    <li><strong>Zend PHP Certified Engineer</strong> (Sep 2019)</li>-->
                 </ul>
             </section>
