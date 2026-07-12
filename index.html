@@ -7,90 +7,211 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div class="cv-wrapper">
-    <header class="header-top">
+<div class="cv">
+    <header class="header">
         <h1>Volodymyr Butko</h1>
-        <p class="role-title">Senior DevOps Engineer</p>
-
-        <div class="contact-bar">
-            <span>📍 Lviv, Ukraine</span>
-            <span>📞 +380956528858</span>
-            <a href="mailto:butko1991@gmail.com">✉️ butko1991@gmail.com</a>
-            <a href="https://linkedin.com/in/volodymyr-butko" target="_blank">🔗 LinkedIn</a>
-            <a href="https://github.com/turb0bur" target="_blank">🔗 GitHub</a>
+        <p class="title">Senior DevOps Engineer</p>
+        <div class="contacts">
+            <a href="mailto:butko1991@gmail.com">butko1991@gmail.com</a>
+            <a href="https://linkedin.com/in/volodymyr-butko" target="_blank">linkedin.com/in/volodymyr-butko</a>
+            <a href="https://github.com/turb0bur" target="_blank">github.com/turb0bur</a>
         </div>
     </header>
 
-    <div class="main-container">
-        <aside class="sidebar">
-            <section class="section section--sidebar section-skills">
-                <h3 class="sidebar-title">Technical Skills</h3>
-                <ul class="skills-list">
-                    <li class="skill-item">
-                        <span class="skill-label">Linux</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">AWS</span>
-                        <span class="rating dots-5" aria-label="5 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Terraform</span>
-                        <span class="rating dots-5" aria-label="5 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Git</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">GitHub Actions</span>
-                        <span class="rating dots-3" aria-label="3 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Docker</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Kubernetes</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Prometheus/Grafana</span>
-                        <span class="rating dots-3" aria-label="3 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Datadog</span>
-                        <span class="rating dots-3" aria-label="3 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Bash</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Python</span>
-                        <span class="rating dots-4" aria-label="4 out of 5"></span>
-                    </li>
-                </ul>
-            </section>
+    <div class="body">
 
-            <section class="section section--sidebar section-languages">
-                <h3 class="sidebar-title">Languages</h3>
-                <ul class="skills-list">
-                    <li class="skill-item">
-                        <span class="skill-label">English</span>
-                        <span class="rating dots-4" aria-label="Advanced"></span>
-                    </li>
-                    <li class="skill-item">
-                        <span class="skill-label">Ukrainian</span>
-                        <span class="rating dots-5" aria-label="Native"></span>
-                    </li>
-                </ul>
-            </section>
+        <!-- SUMMARY -->
+        <section class="section summary">
+            <h2 class="section-title">Summary</h2>
+            <p>Senior DevOps Engineer with 9 years in IT, background spanning frontend development, backend engineering,
+                and oil &amp; gas geology. Specializes in AWS cloud infrastructure, infrastructure as code, and CI/CD
+                automation for enterprise microservices at scale. Kubestronaut - holder of all 5 Linux Foundation
+                Kubernetes certifications (CKA, CKAD, CKS, KCNA, KCSA). AWS Certified DevOps Professional and HashiCorp
+                Terraform Associate.</p>
+        </section>
 
-            <section class="section section--sidebar section-education">
-                <h3 class="sidebar-title">Education</h3>
+        <!-- SKILLS -->
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-row">
+                    <span class="skill-category">Cloud:</span>
+                    <span class="skill-values">AWS - Lambda, ECS Fargate, API Gateway, CloudFront, EventBridge,
+                        Aurora MySQL, DynamoDB, ElastiCache, OpenSearch, Kinesis, Route 53, Step Functions,
+                        Systems Manager, S3, IAM, VPC, CloudWatch</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">Kubernetes:</span>
+                    <span class="skill-values">Helm, RBAC, Network Policies, Pod Security</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">IaC and Config Mgmt:</span>
+                    <span class="skill-values">Terraform</span>
+                    <span class="skill-values">Ansible</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">CI/CD:</span>
+                    <span class="skill-values">Harness, GitHub Actions, AWS CodeBuild, Octopus Deploy</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">Observability:</span>
+                    <span class="skill-values">Datadog, Prometheus, Grafana, Loki, Tempo, Alertmanager</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">Containers:</span>
+                    <span class="skill-values">Docker, containerd</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">Scripting:</span>
+                    <span class="skill-values">Python, Bash</span>
+                </li>
+                <li class="skill-row">
+                    <span class="skill-category">OS:</span>
+                    <span class="skill-values">Linux (Ubuntu, Amazon Linux, CentOS)</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section">
+            <h2 class="section-title">Employment History</h2>
+
+            <!-- EPAM -->
+            <div class="company">
+                <div class="company-header">
+                    <div class="company-name-line">
+                        Senior DevOps Engineer — <span class="co">EPAM Systems</span>, Lviv, Ukraine
+                    </div>
+                    <div class="company-period">June 2021 – Present</div>
+                </div>
+
+                <div class="role">
+                    <div class="role-header">
+                        <span class="role-title">Senior DevOps/Systems Engineer</span>
+                        <span class="role-period">April 2026 – Present</span>
+                    </div>
+                    <ul class="achievements">
+                        <li>Designing and implementing a distributed performance testing platform on AWS (K6, ECS
+                            Fargate, Step Functions) targeting 600K RPH with multi-region capability.
+                        </li>
+                        <li>Reduced non-production Redis infrastructure costs by ~57% by migrating from
+                            service-dedicated ElastiCache highly available clusters to shared single-node Valkey
+                            clusters.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="role">
+                    <div class="role-header">
+                        <span class="role-title">DevOps/Systems Engineer</span>
+                        <span class="role-period">November 2024 - March 2026</span>
+                    </div>
+                    <ul class="achievements">
+                        <li>Designed and scaled core AWS serverless infrastructure (Lambda, API Gateway, Aurora MySQL,
+                            DynamoDB) across 3 regions to support production traffic growth.
+                        </li>
+                        <li>Migrated 60 CI/CD pipelines (20 microservices × 3 pipelines each) from Octopus Deploy to
+                            Harness, separating infrastructure provisioning from application deployments and reducing
+                            tooling subscription costs.
+                        </li>
+                        <li>Resolved production scaling bottlenecks under peak load by implementing RDS Proxy and tuning
+                            Aurora Serverless ACU configuration, eliminating connection exhaustion failures.
+                        </li>
+                        <li>Reduced Datadog observability noise by decommissioning 80 redundant monitors, improving
+                            alert signal quality across environments.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="role">
+                    <div class="role-header">
+                        <span class="role-title">Senior Software Engineer</span>
+                        <span class="role-period">October 2022 - October 2024</span>
+                    </div>
+                    <ul class="achievements">
+                        <li>Designed and built AWS infrastructure using Terraform for 20 serverless microservices,
+                            enabling per-developer deployment environments for ~100 engineers — replacing a legacy
+                            platform limited to 5 concurrent users and manual infrastructure provisioning.
+                        </li>
+                        <li>Built AWS CodeBuild CI/CD pipelines from scratch, enabling automated builds and deployments
+                            across a ~100-engineer team.
+                        </li>
+                        <li>Implemented Datadog dashboards and alerting for critical business workflows, providing
+                            engineering teams with first observability coverage across the platform.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="role">
+                    <div class="role-header">
+                        <span class="role-title">Software Engineer</span>
+                        <span class="role-period">June 2021 - September 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artelogic -->
+            <div class="company">
+                <div class="company-header">
+                    <div class="company-name-line">
+                        WordPress Developer → Junior SE → Fullstack SE — <span class="co">Artelogic</span>, Lviv,
+                        Ukraine
+                    </div>
+                    <div class="company-period">April 2017 - May 2021</div>
+                </div>
+            </div>
+
+            <!-- MSM -->
+            <div class="company">
+                <div class="company-header">
+                    <div class="company-name-line">
+                        Junior Frontend Developer — <span class="co">MSM Technologies</span>, Lviv, Ukraine
+                    </div>
+                    <div class="company-period">December 2016 - March 2017</div>
+                </div>
+            </div>
+
+            <!-- Geology -->
+            <div class="company">
+                <div class="company-header">
+                    <div class="company-name-line">
+                        Oil and Gas Geologist — <span class="co">Ukrainian Geological R&amp;D Center</span>, Poltava,
+                        Ukraine
+                    </div>
+                    <div class="company-period">July 2013 - September 2016</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul class="cert-list">
+                <li>
+                    <strong>Kubestronaut (CKA, CKAD, CKS, KCNA, KCSA)</strong>
+                    <span class="cert-date">May 2026 - March 2028 · Linux Foundation</span>
+                </li>
+                <li>
+                    <strong>AWS Certified DevOps Professional</strong>
+                    <span class="cert-date">Dec 2025 - Dec 2028 · Amazon Web Services</span>
+                </li>
+                <li>
+                    <strong>Prometheus Certified Associate (PCA)</strong>
+                    <span class="cert-date">June 2026 - June 2028 · Linux Foundation</span>
+                </li>
+                <li>
+                    <strong>HashiCorp Certified: Terraform Associate</strong>
+                    <span class="cert-date">Sep 2025 - Sep 2027 · HashiCorp</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- EDUCATION + LANGUAGES -->
+        <div class="footer-grid">
+            <section class="section">
+                <h2 class="section-title">Education</h2>
                 <div class="edu-item">
-                    <strong>Master of Oil & Gas Production</strong>
+                    <strong>Master of Oil &amp; Gas Production</strong>
                     <p>Poltava National Technical Yuriy Kondratiuk University</p>
                 </div>
                 <div class="edu-item">
@@ -98,163 +219,16 @@
                     <p>Poltava National Pedagogical Volodymyr Korolenko University</p>
                 </div>
             </section>
-        </aside>
 
-        <main class="content-area">
-            <section class="section section-summary">
-                <h2>Summary</h2>
-                <p>
-                    Senior DevOps Engineer with 9 years in IT, background spanning frontend development, backend
-                    engineering, and oil & gas geology. Specializes in AWS cloud infrastructure, infrastructure as code,
-                    and CI/CD automation for enterprise microservices at scale. Kubestronaut — holder of all five Linux
-                    Foundation Kubernetes certifications (CKA, CKAD, CKS, KCNA, KCSA). AWS Certified DevOps Professional
-                    and HashiCorp Terraform Associate.
-                </p>
-            </section>
-
-            <section class="section section-history">
-                <h2>Employment History</h2>
-                <div class="company">
-                    <header class="company-header">
-                        <h3 class="company-summary">
-                            <span class="company-position">Senior DevOps Engineer</span>,
-                            <span class="company-name">EPAM Systems</span>,
-                            <span class="company-location">Lviv, Ukraine</span>
-                        </h3>
-                        <p class="company-period">June 2021 - Present</p>
-                    </header>
-                    <ul class="job-list">
-                        <li class="job">
-                            <h4 class="job-title">Senior DevOps/Systems Engineer</h4>
-                            <p class="job-period">April 2026 - Present</p>
-                            <ul class="job-achievements">
-                                <li>Designed and implemented a distributed performance testing platform on AWS (K6, ECS
-                                    Fargate, Step Functions) targeting 600K RPH with multi-region capability.
-                                </li>
-                                <li>Reduced non-production Redis infrastructure costs by ~57% by migrating from
-                                    service-dedicated ElastiCache highly available clusters to shared single-node Valkey
-                                    clusters.
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="job">
-                            <h4 class="job-title">DevOps/Systems Engineer</h4>
-                            <p class="job-period">November 2024 - March 2026</p>
-                            <ul class="job-achievements">
-                                <li>Designed and scaled core AWS serverless infrastructure (Lambda, API Gateway, Aurora
-                                    MySQL, DynamoDB) across 3 regions to support production traffic growth.
-                                </li>
-                                <li>Migrated 60 CI/CD pipelines (20 microservices × 3 pipelines each) from Octopus
-                                    Deploy to Harness, separating infrastructure provisioning from application
-                                    deployments and reducing tooling subscription costs.
-                                </li>
-                                <li>Resolved production scaling bottlenecks under peak load by implementing RDS Proxy
-                                    and tuning Aurora Serverless ACU configuration, eliminating connection exhaustion
-                                    failures.
-                                </li>
-                                <li>Reduced Datadog observability noise by decommissioning 80 redundant monitors,
-                                    improving alert signal quality across environments.
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="job">
-                            <h4 class="job-title">Senior Software Engineer</h4>
-                            <p class="job-period">October 2022 - October 2024</p>
-                            <ul class="job-achievements">
-                                <li>Designed and built AWS infrastructure using Terraform for 20 serverless
-                                    microservices, enabling per-developer deployment environments for ~100 engineers -
-                                    replacing a legacy platform limited to 5 concurrent users and manual infrastructure
-                                    provisioning.
-                                </li>
-                                <li>Built AWS CodeBuild CI/CD pipelines from scratch, enabling automated builds and
-                                    deployments across a ~100-engineer team.
-                                </li>
-                                <li>Implemented Datadog dashboards and alerting for critical business workflows,
-                                    providing engineering teams with first observability coverage across the platform.
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="job">
-                            <h4 class="job-title">Software Engineer</h4>
-                            <p class="job-period">June 2021 - September 2022</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="company">
-                    <header class="company-header">
-                        <h3 class="company-summary">
-                            <span class="company-position">Fullstack SE -> Junior SE -> WordPress Developer</span>,
-                            <span class="company-name">Artelogic</span>,
-                            <span class="company-location">Lviv, Ukraine</span>
-                        </h3>
-                        <p class="company-period">April 2017 - May 2021</p>
-                    </header>
-                </div>
-                <div class="company">
-                    <header class="company-header">
-                        <h3 class="company-summary">
-                            <span class="company-position">Junior Frontend Developer</span>,
-                            <span class="company-name">MSM Technologies</span>,
-                            <span class="company-location">Lviv, Ukraine</span>
-                        </h3>
-                        <p class="company-period">December 2016 - March 2017</p>
-                    </header>
-                </div>
-                <div class="company">
-                    <header class="company-header">
-                        <h3 class="company-summary">
-                            <span class="company-position">Oil and Gas Geologist</span>,
-                            <span class="company-name">Ukrainian Geological R&D Center</span>,
-                            <span class="company-location">Poltava, Ukraine</span>
-                        </h3>
-                        <p class="company-period">July 2013 - September 2016</p>
-                    </header>
-                </div>
-            </section>
-
-<!--            <section class="section section-activities">-->
-<!--                <h2>Notable Activities</h2>-->
-<!--                <ul class="activities">-->
-<!--                    <li class="activity">-->
-<!--                        <h3 class="activity-summary">-->
-<!--                            <span class="activity-name">Internal Engineering Event</span>,-->
-<!--                            <span class="company-name">EPAM Systems</span>-->
-<!--                        </h3>-->
-<!--                        <ul class="activity-links">-->
-<!--                            <li>-->
-<!--                                <a href="https://github.com/turb0bur/ticket-services-infra" class="activity-repo">GitHub:-->
-<!--                                    Infrastructure</a>-->
-<!--                            </li>-->
-<!--                            <li>-->
-<!--                                <a href="https://github.com/turb0bur/ticket-office-service/actions"-->
-<!--                                   class="activity-repo">Microservice CI/CD pipelines</a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                        <p class="activity-description">-->
-<!--                            Designed and implemented ECS Fargate infrastructure for Java microservices - task-->
-<!--                            definitions, IAM, networking (VPC, ALB, SGs), Cloud Map service discovery, observability-->
-<!--                            (CloudWatch, X-Ray/OTEL sidecar), and GitHub Actions CI/CD.-->
-<!--                        </p>-->
-
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </section>-->
-
-            <section class="section section-certifications">
-                <h2>Certifications</h2>
-                <ul class="cert-list">
-                    <li><strong>Kubestronaut (CKA, CKAD, CKS, KCNA, KCSA)</strong> (May 2026-March 2028)</li>
-                    <li><strong>AWS Certified DevOps Professional</strong> (Dec 2025-Dec 2028)</li>
-                    <li><strong>Hashicorp Certified: Terraform Associate</strong> (Sep 2025-Sep 2027)</li>
-                    <!--                    <li><strong>AWS Certified Cloud Practitioner</strong> (Jan 2024-Jan 2027)</li>-->
-                    <!--                    <li><strong>AWS Certified Developer Associate</strong> (Nov 2020-Nov 2023)</li>-->
-                    <!--                    <li><strong>Python Certified Associate Programmer</strong> (Oct 2020)</li>-->
-                    <!--                    <li><strong>Zend PHP Certified Engineer</strong> (Sep 2019)</li>-->
+            <section class="section">
+                <h2 class="section-title">Languages</h2>
+                <ul class="lang-list">
+                    <li>English <span>— Advanced (B2/C1)</span></li>
+                    <li>Ukrainian <span>— Native</span></li>
                 </ul>
             </section>
-        </main>
+        </div>
+
     </div>
 </div>
 </body>
